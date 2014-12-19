@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="answer_an_incoming_call">Trả lời cuộc gọi đến nhanh</string>
+    <string name="answer_an_incoming_call_summary">Khi có cuộc gọi đến, đưa điện thoại lên tai để chấp nhận cuộc gọi</string>
+    <string name="app_name">Cài đặt NTH</string>
+    <string name="battery_icon_list">Biểu tượng pin</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="carrier_logo_summary">Để trống để hiện tên nhà mạng</string>
+    <string name="carrier_logo_text">Nhập logo cá nhân</string>
+    <string name="carrier_logo_title">Hiện logo cá nhân</string>
+    <string name="clock_long_press">Đồng hồ khi giữ</string>
+    <string name="clock_tap">Đồng hồ khi chạm</string>
+    <string name="customization_category_pref">Thiết đặt</string>
+    <string name="disable_pull_down">Tắt chức năng kéo</string>
+    <string name="disable_pull_down_summary">Tắt chức năng kéo thanh trạng thái khi ở màn hình khoá</string>
+    <string name="double_home_title">Chạm đúp Home</string>
+    <string name="double_tap_on_home_screen">Nhấn đúp vào màn hình chính</string>
+    <string name="edit_carrier_name_title">Sửa logo cá nhân</string>
+    <string name="hide_brightness_slider">Ẩn thanh chỉnh độ sáng</string>
+    <string name="information_category">Thông tin</string>
+    <string name="knock_off">Knock Off</string>
+    <string name="knock_off_summary">Tắt màn hình khi chạm đúp vào thanh status, màn hình khóa hay màn hình chính</string>
+    <string name="long_press_back_list_pref">Giữ phím back</string>
+    <string name="long_press_back_when_locked">Giữ phím back khi ở màn hình khoá</string>
+    <string name="long_press_back_when_locked_summary">Để mở đèn pin</string>
+    <string name="long_press_menu_list">Giữ phím menu</string>
+    <string name="long_press_menu_when_locked">Giữ phím menu khi ở màn hình khoá</string>
+    <string name="long_press_menu_when_locked_summary">Để mở camera</string>
+    <string name="long_press_home_when_locked">Giữ phím home khi ở màn hình khoá</string>
+    <string name="long_press_home_when_locked_summary">Để mở đèn pin</string>
+    <string name="media_scan_summary">Tắt quét media mỗi khi khởi động xong</string>
+    <string name="mini_toggle_qslide_pref">Nút bật tắt QSlide mini</string>
+    <string name="mini_toggle_volume_slider_pref">Nút bật tắt thanh âm lượng mini</string>
+    <string name="show_qslide_apps">Hiện ứng dụng Qslide</string>
+    <string name="navigation_bar_header">Phím bấm</string>
+    <string name="navigation_bar_title">Phím bấm</string>
+    <string name="network_speed_interval_out_of_range">Thời gian phải nằm giữa 300ms và 10000ms</string>
+    <string name="network_speed_update_interval_pref">Thời gian cập nhật tốc độ mạng</string>
+    <string name="no">Không</string>
+    <string name="on_lock_screen">Ở màn hình khoá</string>
+    <string name="other_settings_header">Cài đặt khác</string>
+    <string name="prevent_misoperation">Chặn hành động sai</string>
+    <string name="prevent_misoperation_summary">Sử dụng cảm biến tiệm cận</string>
+    <string name="qbutton">Giữ QNút</string>
+    <string name="reboot_recovery_confirm_msg">"Bạn muốn đi đâu?
+
+CHÚ Ý: nếu chọn Recovery mà chưa cài recovery cứng, thì toàn bộ dữ liệu ở bộ nhớ trong sẽ bị xoá hết."</string>
+    <string name="reboot_recovery_header">Vào recovery</string>
+    <string name="reload_systemui">Nạp lại SystemUI</string>
+    <string name="reload_systemui_header">Nạp lại SystemUI</string>
+    <string name="reload_systemui_reminder">"Khởi động lại SystemUI để có hiệu lực.
+Khởi động lại luôn?"</string>
+    <string name="scan_media_title">Tắt quét media</string>
+    <string name="status_bar_transparence">Trong suốt thanh trạng thái</string>
+    <string name="scan_media_trigger_summary">Kích hoạt quét media ngay</string>
+    <string name="scan_media_trigger_title">Kích hoạt</string>
+    <string name="show_network_speed_pref">Hiển thị tốc độ mạng</string>
+    <string name="nthsettings_information">Thông tin Cài đặt NTH</string>
+    <string name="soft_reboot_header">Nạp lại hệ thống</string>
+    <string name="status_bar_expanded_header">Thanh trạng thái mở rộng</string>
+    <string name="status_bar_expanded_title">Thanh tr.thái mở rộng</string>
+    <string name="status_bar_header">Thanh trạng thái</string>
+    <string name="status_bar_title">Thanh trạng thái</string>
+    <string name="swipe_status_bar">Quẹt thanh trạng thái</string>
+    <string name="swipe_status_bar_summary">Quẹt thanh trạng thái để điều chỉnh độ sáng màn hình</string>
+    <string name="tools_category_pref">Công cụ</string>
+    <string name="volume_rocker_wake">Phím âm lượng mở máy</string>
+    <string name="volume_rocker_wake_summary">Cho phép ấn nút tăng hoặc giảm âm lượng để mở máy</string>
+    <string name="dialog_color_picker">Chọn màu</string>
+    <string name="press_color_to_apply">Nhấn vào màu để chọn</string>
+    <string name="set">Đặt</string>
+    <string name="clock_title_enable">Kiểu đồng hồ</string>
+    <string name="battery_icon">Biểu tượng pin</string>
+    <string name="clock_color">Màu đồng hồ</string>
+    <string name="statusbar_icon">Biểu tượng thanh trạng thái</string>
+    <string name="statusbar_icon_and_text">Biểu tượng và chữ</string>
+    <string name="single_icon">Biểu tượng sóng</string>
+    <string name="wifi_icon">Biểu tượng wifi</string>
+    <string name="single_style">Vị trí sóng</string>
+    <string name="title_batterybar">Thanh pin</string>
+    <string name="battery_bar">Hiển thị thanh pin</string>
+    <string name="battery_bar_color">Màu thanh pin</string>
+    <string name="battery_bar_cat">Tùy chọn thanh pin</string>
+    <string name="battery_bar_style_title">Kiểu thanh pin</string>
+    <string name="battery_bar_thickness_title">Độ dày thanh pin</string>
+    <string name="battery_bar_animate_title">Hiện hình động khi sạc</string>
+    <string name="title_clock_ampm_entries">Kiểu SA/CH</string>
+    <string name="enable_clock_weekday">Ngày trong tuần</string>
+    <string name="enable_clock_weekday_summary">Ngày viết tắt của tuần trước thời gian</string>
+    <string name="volbtn_toggle_title">Quản lý nhạc khi màn hình tắt</string>
+    <string name="volbtn_vol_up_title">Giữ phím tăng âm lượng</string>
+    <string name="volbtn_vol_down_title">Giữ phím giảm âm lượng</string>
+    <string name="noti_zone_click">Khu vực thông báo khi chạm</string>
+    <string name="noti_zone_long_press">Khu vực thông báo khi giữ</string>
+
+</resources>

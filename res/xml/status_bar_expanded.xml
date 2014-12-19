@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="mini_toggle_qslide"
+        android:title="@string/mini_toggle_qslide_pref" />
+    <CheckBoxPreference
+        android:key="mini_toggle_volume_slider"
+        android:title="@string/mini_toggle_volume_slider_pref" />
+    <CheckBoxPreference
+        android:key="brightness_slider_hidden"
+        android:title="@string/hide_brightness_slider" />
+    <CheckBoxPreference
+        android:key="enable_qslide"
+        android:title="@string/show_qslide_apps" />
+
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nth.settings"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/extra_settings"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name="com.nth.settings.MainPreferencesCategory"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nth.settings.HardKeys"
+            android:excludeFromRecents="true"
+            android:label="@string/navigation_bar_title"
+            android:parentActivityName="com.nth.settings.MainPreferencesCategory" />
+        <activity
+            android:name="com.nth.settings.StatusBar"
+            android:excludeFromRecents="true"
+            android:label="@string/status_bar_title"
+            android:parentActivityName="com.nth.settings.MainPreferencesCategory" />
+        <activity
+            android:name="com.nth.settings.StatusBarExpanded"
+            android:excludeFromRecents="true"
+            android:label="@string/status_bar_expanded_title"
+            android:parentActivityName="com.nth.settings.MainPreferencesCategory" />
+        <activity
+            android:name="com.nth.settings.OtherSettings"
+            android:excludeFromRecents="true"
+            android:label="@string/other_settings_header"
+            android:parentActivityName="com.nth.settings.MainPreferencesCategory" />
+        <activity
+            android:name="com.nth.settings.StatusBarIcon"
+            android:excludeFromRecents="true"
+            android:label="@string/other_settings_header"
+            android:parentActivityName="com.nth.settings.MainPreferencesCategory" />
+    </application>
+
+</manifest>

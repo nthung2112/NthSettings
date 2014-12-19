@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="back_button_navi">true</bool>
+    <bool name="battery_icon">true</bool>
+    <bool name="brightness_slider_hidden">true</bool>
+    <bool name="button_header">true</bool>
+    <bool name="clock_long_press_action">true</bool>
+    <bool name="clock_tap_action">true</bool>
+    <bool name="custom_carrier_logo">true</bool>
+    <bool name="disable_pull_down_lock">true</bool>
+    <bool name="enable_screen_on_proximity_sensor">true</bool>
+    <bool name="gesture_answering">false</bool>
+    <bool name="gesture_trun_screen_on">true</bool>
+    <bool name="home_double">true</bool>
+    <bool name="long_press_back_on_lock">false</bool>
+    <bool name="long_press_menu_on_lock">false</bool>
+    <bool name="long_press_home_on_lock">true</bool>
+    <bool name="menu_button_navi">true</bool>
+    <bool name="mini_toggle_qslide">true</bool>
+    <bool name="mini_toggle_volume_slider">true</bool>
+    <bool name="show_qslide_apps">true</bool>
+    <bool name="network_speed_update_interval">true</bool>
+    <bool name="other_settings_header">true</bool>
+    <bool name="q_button">false</bool>
+    <bool name="reboot_pref_header">false</bool>
+    <bool name="reboot_recovery_pref_header">false</bool>
+    <bool name="reload_systemui_pref_header">true</bool>
+    <bool name="scan_media_on_boot">true</bool>
+    <bool name="show_network_speed">true</bool>
+    <bool name="soft_reboot_pref_header">true</bool>
+    <bool name="status_bar_expanded_header">true</bool>
+    <bool name="status_bar_header">true</bool>
+    <bool name="status_bar_swipe_brightness">false</bool>
+    <bool name="status_bar_transparence">true</bool>
+    <bool name="volume_rocker_wake">true</bool>
+    <bool name="clock_style">true</bool>
+    <bool name="clock_am_pm_style">true</bool>
+    <bool name="clock_weekday">true</bool>
+    <bool name="single_style">true</bool>
+    <bool name="battery_bar">true</bool>
+    <bool name="single_icon">true</bool>
+    <bool name="wifi_icon">true</bool>
+    <bool name="clock_color">true</bool>
+</resources>

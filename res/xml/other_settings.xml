@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="nth_disable_media_scan"
+        android:summary="@string/media_scan_summary"
+        android:title="@string/scan_media_title" />
+
+    <Preference
+        android:key="scan_all_media"
+        android:layout="?android:preferenceLayoutChild"
+        android:summary="@string/scan_media_trigger_summary"
+        android:title="@string/scan_media_trigger_title" />
+
+    <CheckBoxPreference
+        android:key="gesture_answering"
+        android:summary="@string/answer_an_incoming_call_summary"
+        android:title="@string/answer_an_incoming_call" />
+    <CheckBoxPreference
+        android:key="unlock_sensor_disable"
+        android:summary="@string/prevent_misoperation_summary"
+        android:title="@string/prevent_misoperation" />
+    <CheckBoxPreference
+        android:key="disable_pulldown"
+        android:summary="@string/disable_pull_down_summary"
+        android:title="@string/disable_pull_down" />
+    
+    <CheckBoxPreference
+        android:key="gesture_trun_screen_on"
+        android:summary="@string/knock_off_summary"
+        android:title="@string/knock_off" />
+
+</PreferenceScreen>

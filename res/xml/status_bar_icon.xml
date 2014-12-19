@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="statusbar_icon_and_text"
+        android:title="@string/statusbar_icon_and_text" >
+        <ListPreference
+            android:entries="@array/battery_icon_entries"
+            android:entryValues="@array/battery_icon_values"
+            android:key="statusbar_battery_icon"
+            android:title="@string/battery_icon" />
+        <ListPreference
+            android:entries="@array/single_icon_entries"
+            android:entryValues="@array/single_icon_values"
+            android:key="signal_icon"
+            android:title="@string/single_icon" />
+        <ListPreference
+            android:entries="@array/wifi_icon_entries"
+            android:entryValues="@array/wifi_icon_values"
+            android:key="wifi_icon"
+            android:title="@string/wifi_icon" />
+        <ListPreference
+            android:entries="@array/single_style_entries"
+            android:entryValues="@array/single_style_values"
+            android:key="signal_cluster_type"
+            android:title="@string/single_style" />
+        <ListPreference
+            android:entries="@array/clock_style_entries"
+            android:entryValues="@array/clock_style_values"
+            android:key="statusbar_clock_style"
+            android:title="@string/clock_title_enable" />
+        <ListPreference
+            android:entries="@array/clock_ampm_entries"
+            android:entryValues="@array/clock_ampm_values"
+            android:key="statusbar_clock_am_pm_style"
+            android:title="@string/title_clock_ampm_entries" />
+        <ListPreference
+            android:entries="@array/clock_weekday_entries"
+            android:entryValues="@array/clock_weekday_values"
+            android:key="statusbar_clock_weekday"
+            android:summary="@string/enable_clock_weekday_summary"
+            android:title="@string/enable_clock_weekday" />
+
+        <com.nth.settings.colorpicker.ColorPickerPreference
+            android:defaultValue="0xFF33B5E5"
+            android:key="statusbar_clock_color"
+            android:persistent="false"
+            android:title="@string/clock_color" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="batterybar_settings"
+        android:title="@string/title_batterybar" >
+        <CheckBoxPreference
+            android:key="statusbar_battery_bar"
+            android:title="@string/battery_bar" />
+        <CheckBoxPreference
+            android:key="statusbar_battery_bar_animate"
+            android:title="@string/battery_bar_animate_title" />
+
+        <ListPreference
+            android:entries="@array/battery_bar_style_entries"
+            android:entryValues="@array/battery_bar_style_values"
+            android:key="statusbar_battery_bar_style"
+            android:title="@string/battery_bar_style_title" />
+        <ListPreference
+            android:entries="@array/battery_bar_thickness_entries"
+            android:entryValues="@array/battery_bar_thickness_values"
+            android:key="statusbar_battery_bar_thickness"
+            android:title="@string/battery_bar_thickness_title" />
+
+        <com.nth.settings.colorpicker.ColorPickerPreference
+            android:defaultValue="0xFF33B5E5"
+            android:key="statusbar_battery_bar_color"
+            android:persistent="false"
+            android:title="@string/battery_bar_color" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

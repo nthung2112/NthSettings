@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="clock_click"
+        android:title="@string/clock_tap" />
+    <ListPreference
+        android:entries="@array/button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="clock_long_press"
+        android:title="@string/clock_long_press" />
+    
+    <ListPreference
+        android:entries="@array/button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="noti_zone_click"
+        android:title="@string/noti_zone_click" />
+    <ListPreference
+        android:entries="@array/button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="noti_zone_long_press"
+        android:title="@string/noti_zone_long_press" />
+
+    <com.nth.settings.widget.SeekBarPreference
+        android:key="status_bar_transparency"
+        android:title="@string/status_bar_transparence" />
+
+    <CheckBoxPreference
+        android:key="network_speed"
+        android:title="@string/show_network_speed_pref" />
+
+    <ListPreference
+        android:defaultValue="500"
+        android:entries="@array/network_speed"
+        android:entryValues="@array/network_speed_values"
+        android:key="network_speed_refresh"
+        android:layout="?android:preferenceLayoutChild"
+        android:title="@string/network_speed_update_interval_pref" />
+
+    <CheckBoxPreference
+        android:key="nth_show_carrier_label"
+        android:title="@string/carrier_logo_title" />
+
+    <EditTextPreference
+        android:key="nth_custom_carrier_label"
+        android:layout="?android:preferenceLayoutChild"
+        android:title="@string/edit_carrier_name_title" />
+
+    <CheckBoxPreference
+        android:key="status_bar_swipe_brightness"
+        android:summary="@string/swipe_status_bar_summary"
+        android:title="@string/swipe_status_bar" />
+
+    <PreferenceScreen
+        android:key="statubar_icon"
+        android:title="@string/statusbar_icon" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.nth.settings.StatusBarIcon"
+            android:targetPackage="com.nth.settings" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

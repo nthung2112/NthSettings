@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/navi_button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="home_double"
+        android:title="@string/double_home_title" />
+    <ListPreference
+        android:entries="@array/navi_button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="back_long_press"
+        android:title="@string/long_press_back_list_pref" />
+    <ListPreference
+        android:entries="@array/navi_button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="menu_long_press"
+        android:title="@string/long_press_menu_list" />
+    <ListPreference
+        android:entries="@array/navi_button_action"
+        android:entryValues="@array/navi_button_value"
+        android:key="q_button"
+        android:title="@string/qbutton" />
+
+    <CheckBoxPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake" />
+
+    <PreferenceCategory
+        android:key="on_lock_screen"
+        android:title="@string/on_lock_screen" >
+        <CheckBoxPreference
+            android:key="long_press_back_on_lock"
+            android:summary="@string/long_press_back_when_locked_summary"
+            android:title="@string/long_press_back_when_locked" />
+        <CheckBoxPreference
+            android:key="long_press_menu_on_lock"
+            android:summary="@string/long_press_menu_when_locked_summary"
+            android:title="@string/long_press_menu_when_locked" />
+        <CheckBoxPreference
+            android:key="long_press_home_on_lock"
+            android:summary="@string/long_press_home_when_locked_summary"
+            android:title="@string/long_press_home_when_locked" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/volbtn_toggle_title" >
+        <ListPreference
+            android:entries="@array/volbtn_action_entries"
+            android:entryValues="@array/volbtn_action_values"
+            android:key="volup_long_press"
+            android:title="@string/volbtn_vol_up_title" />
+        <ListPreference
+            android:entries="@array/volbtn_action_entries"
+            android:entryValues="@array/volbtn_action_values"
+            android:key="voldown_long_press"
+            android:title="@string/volbtn_vol_down_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

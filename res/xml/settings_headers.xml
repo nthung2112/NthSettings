@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/customization_category_pref" >
+        <Preference
+            android:id="@+id/navi_bar"
+            android:key="nav_bar_header"
+            android:title="@string/navigation_bar_header" />
+        <Preference
+            android:id="@+id/status_bar"
+            android:key="status_bar_header"
+            android:title="@string/status_bar_header" />
+        <Preference
+            android:id="@+id/status_bar_expanded"
+            android:key="status_bar_expanded_header"
+            android:title="@string/status_bar_expanded_header" />
+        <Preference
+            android:key="other_settings_header"
+            android:title="@string/other_settings_header" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="tools_category_pref"
+        android:title="@string/tools_category_pref" >
+        <Preference
+            android:key="reload_systemui_pref_header"
+            android:title="@string/reload_systemui_header" />
+        <Preference
+            android:key="soft_reboot_pref_header"
+            android:title="@string/soft_reboot_header" />
+        <Preference
+            android:key="reboot_pref_header"
+            android:title="@string/reboot_header" />
+        <Preference
+            android:key="reboot_recovery_pref_header"
+            android:title="@string/reboot_recovery_header" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/information_category" >
+        <Preference
+            android:key="settings_info_pref"
+            android:summary="@string/nthsettings_information_summary"
+            android:title="@string/nthsettings_information" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

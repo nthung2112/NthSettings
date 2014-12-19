@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="button_action">
+        <item>Không</item>
+        <item>Tắt màn hình</item>
+        <item>Về Home</item>
+        <item>Ứng dụng gần đây</item>
+        <item>Đóng ứng dụng</item>
+        <item>Quickmemo</item>
+        <item>Bật menu phím nguồn</item>
+    </string-array>
+    <string-array name="double_tap_home_options">
+        <item>Không</item>
+        <item>Tắt màn hình</item>
+        <item>Ứng dụng gần đây</item>
+    </string-array>
+    <string-array name="navi_button_action">
+        <item>Không</item>
+        <item>Tắt màn hình</item>
+        <item>Về Home</item>
+        <item>Ứng dụng gần đây</item>
+        <item>Đóng ứng dụng</item>
+        <item>Bật menu phím nguồn</item>
+        <item>Chụp màn hình</item>
+        <item>Quickmemo</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Phải</item>
+        <item>Giữa</item>
+        <item>Ẩn</item>
+    </string-array>
+    <string-array name="clock_weekday_entries">
+        <item>Ẩn</item>
+        <item>Chữ nhỏ</item>
+        <item>Chữ thường</item>
+    </string-array>
+    <string-array name="battery_icon_entries">
+        <item>Mặc định</item>
+        <item>Trắng</item>
+        <item>Vòng tròn</item>
+        <item>Ẩn</item>
+    </string-array>
+    <string-array name="clock_ampm_entries">
+        <item>Ẩn</item>
+        <item>Chữ nhỏ</item>
+        <item>Chữ thường</item>
+    </string-array>
+    <string-array name="single_style_entries">
+        <item>Phải</item>
+        <item>Trái</item>
+    </string-array>
+    <string-array name="battery_bar_style_entries">
+        <item>Trái</item>
+        <item>Giữa</item>
+    </string-array>
+    <string-array name="single_icon_entries">
+        <item>Mặc định</item>
+        <item>Xanh</item>
+    </string-array>
+    <string-array name="wifi_icon_entries">
+        <item>Mặc định</item>
+        <item>Xanh</item>
+    </string-array>
+
+</resources>
